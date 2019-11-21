@@ -1,5 +1,4 @@
 import React from 'react';
-import products from './data/products';
 import {
   Header,
   ProductGrid,
@@ -28,7 +27,7 @@ function App() {
             marginLeft: '.2rem',
           }}
         >
-          <ProductGrid products={products} />
+          <ProductGrid products={[{}, {}]} />
         </Column>
       </Container>
     </div>
