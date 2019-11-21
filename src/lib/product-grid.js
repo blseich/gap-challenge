@@ -10,9 +10,6 @@ function ProductGrid({ products }) {
       {
         products.map((pants, i) => (
           <Card
-            description={pants.description}
-            img={pants.img}
-            key={i}
           />
         ))
       }
